@@ -10,4 +10,9 @@ public class HelloController {
     public String sayHello(){
         return "hello from docker example";
     }
+
+    @GetMapping("/hi")
+    public String sayHi(){
+        return "hi from docker example";
+    }
 }
